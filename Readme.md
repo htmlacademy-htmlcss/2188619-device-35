@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
-* Студент: [Алексей Кириллов] (https://up.htmlacademy.ru/htmlcss/35/user/2188619).
-* Наставник: [Артём Картавый] (https://htmlacademy.ru/profile/artem_k).
+* Студент: [Алексей Кириллов](https://up.htmlacademy.ru/htmlcss/35/user/2188619).
+* Наставник: [Артём Картавый](https://htmlacademy.ru/profile/artem_k).
 
 ---
 
