@@ -13,12 +13,12 @@
        </a>
 <!-- "Поиск по сайту" -->
 
-        <div> <label class="navigation-search">
-          <input class="navigation-search" type="search" name="text" value="Текст поиска">
-        <button><a class="navigation-search-button" href="#"></a>
-      </button>
-        </label>
-      </div>
+  <div>
+    <label class="navigation-search">
+      <input class="navigation-search" type="search" name="text" value="Текст поиска">
+        <button><a class="navigation-search-button"></a></button>
+    </label>
+  </div>
 
 
 <!-- "шапка сайта" -->
@@ -38,28 +38,28 @@
      <nav class="navigation">
           <h2 class="visually-hidden">Каталог товаров</h2>
           <a class="navigation-catalog" href="">Каталог товаров</a>
-          <button class="navigation-catalog-button">
-            </button>
+
  <!-- "навигация сайта" -->
-            <ul class="navigation-divice-list">
-              <li class="navigation-divice-item">
-                <a class="navigation-divice-link"  href="#">Доставка</a>
-              </li>
-              <li class="navigation-divice-item">
-                <a class="navigation-divice-link"  href="#">Гарантия</a>
-              </li>
-              <li class="navigation-divice-item">
-                <a class="navigation-divice-link"  href="#">Контакты</a>
-              </li>
-              </ul>
-            </nav>
+       <ul class="navigation-divice-list">
+          <li class="navigation-divice-item">
+             <a class="navigation-divice-link"  href="#">Доставка</a>
+           </li>
+          <li class="navigation-divice-item">
+             <a class="navigation-divice-link"  href="#">Гарантия</a>
+           </li>
+         <li class="navigation-divice-item">
+             <a class="navigation-divice-link"  href="#">Контакты</a>
+           </li>
+        </ul>
+     </nav>
 </header>
 
  <!--"товары с фильтром"-->
+<main>
  <h2 class="visually-hidden">Список товаров с фильтрами</h2>
-  <section class="catalog-products">
-    <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
-      <h3 class="catalog-products-title">фильтр:</h3>
+   <section class="catalog-products">
+    <h3 class="catalog-products-title">фильтр:</h3>
+     <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
 
     <!--"Блок с фильтром по цене"
 
@@ -105,13 +105,13 @@
  <ul class="catalog-filter-list">
    <li class="catalog-filter-item">
     <label class="control">
-      <input class="control-input" type="radio" name="product-group" value="shaving-supplies">
+      <input class="control-input" type="radio" name="product-group" value="yes">
       Есть</label>
     </li>
 
     <li class="catalog-filter-item">
       <label class="control">
-         <input class="control-input" type="radio" name="product-group" value="shaving-supplies">
+         <input class="control-input" type="radio" name="product-group" value="no">
          Нет</label>
       </li>
       </ul>
@@ -135,45 +135,34 @@
 
     <ul class="product-list">
       <li class="product-card">
-      <a class="product-card-link" href="product.html">
-        <img class="product-card-image" src="" alt="">
-        <h3 class="product-card-title">Любительская селфи-палка</h3>
-       </a>
-         <b class="product-card-price">500 ₽</b>
+         <a class="product-card-link" href="product.html">
+           <img class="product-card-image" src="" alt="">Любительская селфи-палка</a>
+            <b class="product-card-price">500 ₽</b>
        </li>
-      </ul>
-      <ul class="product-list">
       <li class="product-card">
-      <a class="product-card-link" href="product.html">
-        <img class="product-card-image" src="" alt="">
-        <h3 class="product-card-title">Профессиональная селфи-палка </h3>
-      </a>
-      <b class="product-card-price">1500 ₽</b>
-    </li>
-    </ul> <ul class="product-list">
+          <a class="product-card-link" href="product.html">
+            <img class="product-card-image" src="" alt="">Профессиональная селфи-палка</a>
+             <b class="product-card-price">1500 ₽</b>
+      </li>
+
       <li class="product-card">
-      <a class="product-card-link" href="product.html">
-        <img class="product-card-image" src="" alt="">
-        <h3 class="product-card-title">Непотопляемая селфи-палка</h3>
-      </a>
-      <b class="product-card-price">2500 ₽</b>
-    </li>
-    </ul> <ul class="product-list">
+         <a class="product-card-link" href="product.html">
+            <img class="product-card-image" src="" alt="">Непотопляемая селфи-палка</a>
+             <b class="product-card-price">2500 ₽</b>
+       </li>
+
       <li class="product-card">
-      <a class="product-card-link" href="product.html">
-        <img class="product-card-image" src="" alt="">
-        <h3 class="product-card-title">Непотопляемая селфи-палка</h3>
-      </a>
-      <b class="product-card-price">1500 ₽</b>
-    </li>
+         <a class="product-card-link" href="product.html">
+           <img class="product-card-image" src="" alt="">Непотопляемая селфи-палка</a>
+             <b class="product-card-price">1500 ₽</b>
+      </li>
     </ul>
     <button class="button pagination-show-more" type="button">Загрузить ещё</button>
 
     <ul class="pagination">
       <li class="pagination-item">
          <a class="pagination-link pagination-prev pagination-disabled">
-          <span class="visually-hidden">Назад</span>
-         </a>
+          <span class="visually-hidden">Назад</span></a>
        </li>
       <li class="pagination-item">
          <a class="pagination-link pagination-current">1</a>
@@ -215,6 +204,7 @@
    </section>
 
   <section class="footer-navigation">
+    <h2 class="visually-hidden">Услуги</h2>
     <ul class="footer-navigation-divice-list">
       <li class="footer-navigation-divice-item">
         <a class="footer-navigation-divice-link"  href="#">Доставка</a>

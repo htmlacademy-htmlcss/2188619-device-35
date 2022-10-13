@@ -13,12 +13,12 @@
        </a>
 <!-- "Поиск по сайту" -->
 
-        <div> <label class="navigation-search">
-          <input class="navigation-search" type="search" name="text" value="Текст поиска">
-        <button><a class="navigation-search-button" href="#"></a>
-      </button>
-        </label>
-      </div>
+<div>
+  <label class="navigation-search">
+    <input class="navigation-search" type="search" name="text" value="Текст поиска">
+      <button><a class="navigation-search-button"></a></button>
+  </label>
+</div>
 
 
 <!-- "шапка сайта" -->
@@ -36,56 +36,42 @@
 
 <!-- "Каталог товаров" -->
      <nav class="navigation">
-          <h2 class="visually-hidden">Каталог товаров</h2>
+        <h2 class="visually-hidden">Каталог товаров</h2>
           <a class="navigation-catalog" href="">Каталог товаров</a>
-          <button class="navigation-catalog-button">
-            </button>
- <!-- "навигация сайта" -->
-            <ul class="navigation-divice-list">
-              <li class="navigation-divice-item">
-                <a class="navigation-divice-link"  href="#">Доставка</a>
-              </li>
-              <li class="navigation-divice-item">
-                <a class="navigation-divice-link"  href="#">Гарантия</a>
-              </li>
-              <li class="navigation-divice-item">
-                <a class="navigation-divice-link"  href="#">Контакты</a>
-              </li>
-              </ul>
-            </nav>
-</header>
 
+ <!-- "навигация сайта" -->
+       <ul class="navigation-divice-list">
+          <li class="navigation-divice-item">
+              <a class="navigation-divice-link"  href="#">Доставка</a>
+            </li>
+          <li class="navigation-divice-item">
+              <a class="navigation-divice-link"  href="#">Гарантия</a>
+            </li>
+          <li class="navigation-divice-item">
+              <a class="navigation-divice-link"  href="#">Контакты</a>
+            </li>
+        </ul>
+    </nav>
+  </header>
 
 <main class="main-index">
 
   <!-- "Слайдер" -->
-<section class="catalog-gallery">
-  <h2 class="catalog-gallery-title">Фотогалерея</h2>
+  <section class="slider">
+    <h2 class="visually-hidden">Слайдер с товарами</h2>
+    <ul class="slider-arrows">
+      <li class="slider-arrow">
+        <button class="slider-button slider-prev" type="button">
+          <span class="visually-hidden">Предыдущее фото</span>
+        </button>
+      </li>
+      <li class="slider-arrow">
+        <button class="slider-button slider-next" type="button">
+          <span class="visually-hidden">Следующее фото</span>
+        </button>
+      </li>
+    </ul>
 
-  <button class="slider-button slider-prev" type="button">
-    <span class="slider-button-back">Предыдущее фото</span>
-  </button>
-  <button class="slider-button slider-next" type="button">
-    <span class="slider-button-forward">Следующее фото</span>
-  </button>
-  <ol class="slider-pagination">
-    <li class="slider-pagination-item">
-      <button class="slider-pagination-button slider-pagination-button-current" type="button">
-        <span class="visually-hidden">1 фото</span>
-      </button>
-    </li>
-    <li class="slider-pagination-item">
-      <button class="slider-pagination-button" type="button">
-        <span class="visually-hidden">2 фото</span>
-      </button>
-    </li>
-    <li class="slider-pagination-item">
-      <button class="slider-pagination-button" type="button">
-        <span class="visually-hidden">3 фото</span>
-      </button>
-    </li>
-  </ol>
-</section>
 <!-- "каталог" -->
 
   <section class="catalog-devices">
@@ -124,28 +110,40 @@
     <ul class="services-list">
       <li class="services-list-item">
         <button class="services-list-button-delivery" type="button">Доставка</button>
-        <p class="services-delivery-text">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
       </li>
-
       <li class="services-list-item">
         <button class="services-list-button-warranty" type="button">Гарантия</button>
-        <!--<p class="services-warranty-text">Если из-за возгорания купленного у нас товара у вас
-    сгорит дом — не переживайте, мы выдадим вам новый.</p>
-      </li>-->
-
+      </li>
       <li class="services-list-item">
         <button class="services-list-button-credit" type="button">Кредит</button>
-        <!--<p class="services-credit-text">Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодные условия кредита. Выгодные для банка, разумеется.</p>
-      </li>-->
-
+      </li>
     </ul>
+    <ul class="services-description-list">
+      <li class="services-description-item">
+        <h3 class="services-description-title">Доставка</h3>
+         <p class="services-description-text">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно
+          бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
+      </li>
+      <li class="services-description-item">
+        <h3 class="services-description-title">Гарантия</h3>
+         <p class="services-description-text">Если из-за возгорания купленного у нас товара у вас сгорит дом — не переживайте,
+          мы выдадим вам новый. Товар, не дом, конечно же.</p>
+      </li>
+      <li class="services-description-item">
+        <h3 class="services-description-title">Кредит</h3>
+         <p class="services-description-text">Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас
+          наиболее выгодные условия кредита. Выгодные для банка, разумеется.</p>
+      </li>
+    </ul>
+
+
   </section>
   <!-- "редкий товар под заказ" -->
-<section class="index-elivery">
+
   <h3 class="visually-hidden">Доставим редкий товар под заказ</h3>
   <button class="index-elivery-button-credit" type="button">Доставим редкий товар под заказ</button>
 
-</section>
+
 <!--"О нас"-->
 <section class="about-us">
   <h2 class="about-us-title">О нас</h2>
@@ -169,11 +167,11 @@
 <!--"Контакты"-->
 <section class="contacts">
   <h2 class="contacts-title">Контакты</h2>
-   <p class="contacts-subtitle">Вы можете забрать товар сами, заехав в наш офис. Заодно сможете проверить работоспособность покупки.</p>
+     <p class="contacts-subtitle">Вы можете забрать товар сами, заехав в наш офис. Заодно сможете проверить работоспособность покупки.</p>
   <span class="contacts-title-site">Интернет-магазин «Девайс»</span>
    <address class="contacts-address">
-    <p class="contacts-address-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
-    <a class="contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+       <p class="contacts-address-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
+        <a class="contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
    </address>
   <span class="contacts-subtitle-time">Время работы</span>
   <span>пн—пт: с 10:00 до 22:00 <br>
@@ -196,7 +194,7 @@
           </button>
         </form>
  </section>
-</main>
+ </main>
 
 <!--"footer"-->
 <footer class="page-footer">
@@ -213,6 +211,7 @@
    </section>
 
   <section class="footer-navigation">
+    <h2 class="visually-hidden">Услуги</h2>
     <ul class="footer-navigation-divice-list">
       <li class="footer-navigation-divice-item">
         <a class="footer-navigation-divice-link"  href="#">Доставка</a>
