@@ -32,7 +32,6 @@ body {
   line-height: 30px;
   color: #000000;
   background-color: #ffffff;
-
 }
 .visually-hidden {
   position: absolute;
@@ -47,7 +46,6 @@ body {
 /* Pages */
 
 .header-container {
-
   max-width: 1040px;
   margin: 0 auto;
   /* padding-top: 40; */
@@ -60,17 +58,14 @@ body {
 
   height: 300px;
   max-width: 1040px;
-
 }
 
 .navigation {
   color: #000000;
-
 }
 
 /* "шапка сайта"   */
 .menu-list {
-
 }
 .menu-link {
   font-family: "Rubik", sans-serif;
@@ -79,10 +74,7 @@ body {
   line-height: 30px;
   color: #000000;
 
-
-
   /* list-style-type: none; */
-
 }
 /* Каталог товаров */
 .navigation-catalog {
@@ -90,7 +82,6 @@ body {
   text-decoration: none;
   line-height: 21px;
   color: #000000;
-
 }
 /* навигация сайта */
 .navigation-divice-link {
@@ -102,20 +93,14 @@ body {
   color: #000000;
 }
 
-
 /* слайдер */
 .slider-button .slider-prev {
-
 }
 
 .slider-button .slider-next {
-
-
 }
 
-
 /* Каталог */
-
 
 .catalog-devices-item-link {
   text-decoration: none;
@@ -123,16 +108,7 @@ body {
   color: #000000;
   text-transform: uppercase;
   line-height: 18px;
-
-
-
 }
-
-
-
-
-
-
 
 /* Услуги магазина */
 
@@ -142,7 +118,6 @@ body {
   text-transform: uppercase;
   line-height: 21px;
   color: #000000;
-
 }
 
 .services-description-text {
@@ -150,7 +125,6 @@ body {
   font-weight: 400;
   line-height: 30px;
   font-size: 18px;
-
 }
 
 /* редкий товар под заказ */
@@ -160,19 +134,7 @@ body {
   font-size: 20px;
   line-height: 24px;
   text-transform: uppercase;
-
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /* О нас контейнер*/
 .information-container {
@@ -180,15 +142,12 @@ body {
   font-size: 18px;
   line-height: 50px;
   text-decoration: none; */
-
-
 }
 /* о нас */
 .about-us-title {
   font-weight: 800;
   line-height: 50px;
   font-size: 50px;
-
 }
 /* Описание о нас */
 .about-us-text {
@@ -197,7 +156,6 @@ body {
   line-height: 30px;
   font-size: 18px;
   color: #444444;
-
 }
 /* Ссылки ТК */
 .about-us-link {
@@ -212,16 +170,13 @@ body {
 .button .button-all {
   text-decoration: none;
   color: #000000;
-
 }
-
 
 /* Контакты */
 .contacts-title {
   font-weight: 800;
   line-height: 50px;
   font-size: 50px;
-
 }
 /* описанние контактов */
 .contacts-subtitle {
@@ -238,7 +193,6 @@ body {
   line-height: 30px;
   font-size: 24px;
   color: #444444;
-
 }
 .contacts-address-text {
   font-family: "Rubik", sans-serif;
@@ -246,7 +200,6 @@ body {
   line-height: 30px;
   font-size: 18px;
   color: #444444;
-
 }
 /* Ссылка-телефон */
 .contacts-phone {
@@ -257,7 +210,7 @@ body {
   font-size: 18px;
   color: #444444;
 
-/* Время работы */
+  /* Время работы */
 }
 .contacts-subtitle-text {
   font-family: "Rubik", sans-serif;
@@ -265,15 +218,14 @@ body {
   line-height: 30px;
   font-size: 24px;
   color: #444444;
-
 }
 
 .contacts-subtitle-time {
-font-family: "Rubik", sans-serif;
-font-weight: 400;
-line-height: 30px;
-font-size: 18px;
-color: #444444;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  line-height: 30px;
+  font-size: 18px;
+  color: #444444;
 }
 
 /* кнопка напишите нам */
@@ -285,16 +237,7 @@ text-decoration: none;
 
 /* Подпишитесь на рассылку */
 
-
-
-
-
-
-
-
 /* footer */
-
-
 
 .about-us-link {
   text-decoration: none;
@@ -302,5 +245,4 @@ text-decoration: none;
   color: #000000;
   text-transform: uppercase;
   line-height: 18px;
-
 }
