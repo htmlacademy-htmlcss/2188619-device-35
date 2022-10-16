@@ -4,6 +4,7 @@
   <head>
     <meta charset="utf-8">
     <title>Каталог</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
 
   <body>
@@ -16,11 +17,11 @@
       </a>
       <!-- "Поиск по сайту" -->
 
-      <div>
+      <form class="navigation-search" action="https://echo.htmlacademy.ru/" method="post">
         <label class="navigation-search">
-          <input class="navigation-search" type="search" name="text" value="Текст поиска"></label>
-        <button class="navigation-search-button"></button>
-      </div>
+          <input class="navigation-search" type="search" name="text" required placeholder="Поиск по сайту"></label>
+        <button class="navigation-search-button" type="submit"></button>
+      </form>
 
 
       <!-- "шапка сайта" -->
@@ -78,7 +79,7 @@
                 </label>
               <li class="catalog-filter-item">
                 <label class="control">
-                  <input class="control-input" type="checkbox" name="White" checked>Белый
+                  <input class="control-input" type="checkbox" name="White">Белый
                 </label>
               </li>
               <li class="catalog-filter-item">
