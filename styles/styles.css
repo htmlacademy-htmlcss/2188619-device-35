@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "Ralemay";
+  font-family: "Raleway";
   font-style: normal;
   font-weight: 800;
   src: url("../fonts/raleway/raleway-800.woff2") format("woff2");
@@ -27,7 +27,7 @@ html {
 }
 
 body {
-  font-family: "Ralemay", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   line-height: 30px;
   color: #000000;
@@ -46,18 +46,12 @@ body {
 /* Pages */
 
 .header-container {
-  max-width: 1040px;
-  margin: 0 auto;
-  /* padding-top: 40; */
   margin-top: 40px;
 }
 /* header */
 .page-header {
   background-color: #ffe17f;
   background-size: 100% auto;
-
-  height: 300px;
-  max-width: 1040px;
 }
 
 .navigation {
@@ -65,62 +59,144 @@ body {
 }
 
 /* "шапка сайта"   */
-.menu-list {
+.menu-item {
+  list-style: none;
 }
+/* Строка поиска */
+
+.navigation-search {
+  font-family: "Rubik", sans-serif;
+  text-decoration: none;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #000000;
+  background-color: #ffe17f;
+}
+/* Кнопка поиска */
+
+.navigation-search-button {
+  font-family: "Rubik", sans-serif;
+  text-decoration: none;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #000000;
+  background-color: #ffe17f;
+}
+
 .menu-link {
   font-family: "Rubik", sans-serif;
   text-decoration: none;
   font-weight: 400;
   line-height: 30px;
   color: #000000;
-
-  /* list-style-type: none; */
 }
 /* Каталог товаров */
 .navigation-catalog {
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   text-decoration: none;
+  letter-spacing: 0.2em;
   line-height: 21px;
+  font-style: normal;
   color: #000000;
+  text-transform: uppercase;
 }
 /* навигация сайта */
+.navigation-divice-item {
+  list-style: none;
+}
 .navigation-divice-link {
   font-weight: 800;
   text-decoration: none;
-  /* list-style: none; */
+  letter-spacing: 0.2em;
+  font-size: 18px;
   text-transform: uppercase;
   line-height: 21px;
   color: #000000;
 }
 
 /* слайдер */
-.slider-button .slider-prev {
+
+.slider-arrow {
+  list-style: none;
+}
+/* .slider-button .slider-prev {
 }
 
 .slider-button .slider-next {
-}
+} */
 
 /* Каталог */
+.catalog-devices-item {
+  list-style: none;
+}
 
 .catalog-devices-item-link {
   text-decoration: none;
   font-weight: 800;
   color: #000000;
-  text-transform: uppercase;
   line-height: 18px;
 }
 
 /* Услуги магазина */
+.services {
+  background: #f0f0f0;
+}
+.services-list-item {
+  list-style: none;
+}
 
-.services-description-title {
+/* Кнопки */
+.button {
+  font-weight: 800;
+  text-decoration: none;
+  letter-spacing: 0.2em;
+  font-size: 18px;
+  text-transform: uppercase;
+  line-height: 21px;
+  color: #000000;
+  border: none;
+}
+/* Услуги */
+.services-description-item {
+  list-style: none;
+}
+/* Услуги доставка */
+
+.services-delivery-title {
   font-weight: 800;
   text-decoration: none;
   text-transform: uppercase;
   line-height: 21px;
   color: #000000;
+  /* background-image: url(../images/icons/icon-delivery-images.svg);
+  background-repeat: no-repeat; */
 }
-
-.services-description-text {
+/* Услуги гарантия */
+.services-warranty-title {
+  font-weight: 800;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 21px;
+  color: #000000;
+  /* background-image: url(../images/icons/icon-warranty-images.svg);
+  background-repeat: no-repeat; */
+}
+/* Услуги кредит */
+.services-credit-title {
+  font-weight: 800;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 21px;
+  color: #000000;
+  /* background-image: url(../images/icons/icon-credit-images.svg);
+  background-repeat: no-repeat; */
+}
+.services-description-item p {
   font-family: "Rubik", sans-serif;
   font-weight: 400;
   line-height: 30px;
@@ -130,19 +206,24 @@ body {
 /* редкий товар под заказ */
 
 .index-elivery-button-credit {
+  background: #f0f0f0;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 20px;
   line-height: 24px;
   text-transform: uppercase;
+  letter-spacing: 0.2em;
+  border: none;
 }
 
 /* О нас контейнер*/
-.information-container {
-  /* font-weight: 800;
+/* .information-container {
+  font-weight: 800;
   font-size: 18px;
   line-height: 50px;
-  text-decoration: none; */
-}
+  text-decoration: none;
+}*/
+
 /* о нас */
 .about-us-title {
   font-weight: 800;
@@ -158,16 +239,19 @@ body {
   color: #444444;
 }
 /* Ссылки ТК */
+.about-us-item {
+  list-style: none;
+}
 .about-us-link {
   font-family: "Rubik", sans-serif;
+  text-decoration: none;
   font-weight: 700;
   line-height: 20px;
   font-size: 18px;
   color: #000000;
-  /* text-transform: inherit; */
 }
 /* Кнопка о нас */
-.button .button-all {
+.button {
   text-decoration: none;
   color: #000000;
 }
@@ -177,6 +261,9 @@ body {
   font-weight: 800;
   line-height: 50px;
   font-size: 50px;
+}
+.contacts-address {
+  font-style: normal;
 }
 /* описанние контактов */
 .contacts-subtitle {
@@ -228,21 +315,262 @@ body {
   color: #444444;
 }
 
-/* кнопка напишите нам */
-
-/* .button .button-all {
-text-decoration: none;
-  color: #000000;
-} */
-
 /* Подпишитесь на рассылку */
 
-/* footer */
-
-.about-us-link {
+.mailing {
+  background: #f0f0f0;
+}
+.mailing-title {
+  font-family: "Rubik", sans-serif;
   text-decoration: none;
   font-weight: 800;
   color: #000000;
+  line-height: 50px;
+  font-size: 50px;
+}
+/* Подпишитесь на рассылку, текст */
+.mailing p {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  line-height: 30px;
+  font-size: 18px;
+}
+/* ввод почты */
+.field {
+  border: none;
+  background-color: #f0f0f0;
+}
+/* Кнопка  */
+.button-mailing {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.2em;
+  color: #000000;
+  text-transform: uppercase;
+  border: none;
+}
+/* это бесплатно */
+.mailing-form span {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #444444;
+}
+
+/* footer */
+.footer-container {
+  background-color: #444444;
+}
+.footer-logo {
+  color: #ffc700;
+}
+
+.footer-contacts-address-phone {
+  font-family: "Rubik", sans-serif;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration-line: underline;
+  line-height: 20px;
+  font-style: normal;
+}
+
+.footer-contacts-address-text {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+  font-size: 16px;
+  color: #ffffff;
+  font-style: normal;
+}
+
+.footer-navigation-divice-list {
+  list-style: none;
+}
+.footer-navigation-divice-link {
+  text-decoration: none;
+  font-weight: 800;
+  color: #ffffff;
   text-transform: uppercase;
   line-height: 18px;
+  letter-spacing: 0.2em;
+}
+/* Социальные сети */
+.footer-social-item {
+  list-style: none;
+}
+/* Ссылка html-academy */
+.htmlacademy-link {
+  width: 115px;
+  height: 33px;
+}
+
+/* -----------------------К-А-Т-А-Л-О-Г------------------------- */
+/* Хлебные крошки */
+.breadcrumbs {
+  list-style: none;
+}
+.menu-link-escape {
+  text-decoration: none;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #000000;
+  opacity: 0.3;
+}
+.inner-header-title {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.breadcrumbs-link {
+  text-decoration: none;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+.catalog-all {
+  background: #f0f0f0;
+}
+/* Фильтр */
+.catalog-products-title {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.catalog-filter-title {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+}
+/* checkbox */
+
+.catalog-filter-item {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  list-style: none;
+}
+.catalog-filter-group {
+  border: none;
+}
+
+/* Сортировка */
+.select-control {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  background: #f0f0f0;
+  border: none;
+}
+/* Фон сортировки */
+.product-card {
+  list-style: none;
+}
+.product-list {
+  background: #ffffff;
+}
+.sorting p {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+/* Описание карточек */
+.product-card-link {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+  text-decoration: none;
+  color: #000000;
+}
+/* Цена карточек */
+.product-card-link b {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+/* кнопка "загрузить ещё" */
+
+.button-show-more {
+  background-color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  border: none;
+}
+/* Страницы каталога */
+
+.pagination-item {
+  list-style: none;
+}
+.pagination-link {
+  text-decoration: none;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #444444;
+}
+/* Кнопка назад */
+.pagination-disabled {
+  background-color: #ebebeb;
+  color: #444444;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+/* Кнопка вперёд */
+.pagination-next {
+  background-color: #ebebeb;
+  color: #000000;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-decoration: none;
 }
