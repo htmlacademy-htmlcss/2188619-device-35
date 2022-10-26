@@ -51,18 +51,18 @@ body {
 
 /* header */
 .page-header {
-  width: 1440px;
+  width: 1160px;
   height: 300px;
   margin: 0 auto;
   padding: 0;
+  margin-top: 40px;
+  background-color: #ffe17f;
 }
 .header-container {
   display: flex;
   flex-direction: column;
-  margin: 40px 140px auto 140px;
-  width: 1160px;
-  height: 175px;
-  background-color: #ffe17f;
+  margin-left: 60px;
+  margin-right: 60px;
   background-size: 0 auto;
   padding: 0;
 }
@@ -72,9 +72,8 @@ body {
 }
 .navigation-search-container {
   display: flex;
-  margin: 30px 0 0 60px;
+  margin-top: 30px;
   width: 1040px;
-  height: 40px;
   padding: 0;
 }
 .menu-list-container {
@@ -93,10 +92,11 @@ body {
 /* "шапка сайта"   */
 .menu-list {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
   width: 471px;
-  margin: 0 0 0 26px;
   padding: 0;
+  margin: 0;
+  margin-left: 53px;
 }
 .menu-item {
   list-style: none;
@@ -171,10 +171,8 @@ body {
 } */
 .navigation {
   display: flex;
-  align-items: flex-end;
   width: 1040px;
-  height: 21px;
-  margin: 64px 0 0 60px;
+  margin-top: 45px;
   color: #000000;
 }
 .navigation-catalog {
@@ -193,13 +191,14 @@ body {
   display: flex;
   width: 470px;
   padding: 0;
-  margin: 333px auto 0 333px;
+  margin: 0;
+  margin-left: 333px;
 }
 .navigation-divice-item {
-  display: flex;
   list-style: none;
   width: 125px;
-  margin-left: auto;
+  margin: 0;
+  padding: 0;
 }
 .navigation-divice-link {
   font-weight: 800;
@@ -209,7 +208,7 @@ body {
   text-transform: uppercase;
   line-height: 21px;
   color: #000000;
-  padding: 10px 0 0 0;
+  padding: 0;
 }
 .main-index {
   flex-grow: 1;
@@ -274,13 +273,14 @@ body {
 .services-container {
   display: flex;
   width: 1440px;
-  height: 391px;
+  height: 289px;
   background-color: #f0f0f0;
+  margin-top: 172px;
 }
 
 .services {
   display: flex;
-  margin: 70px 140px auto 140px;
+  margin: -102px 140px auto 140px;
   padding: 0;
 }
 .services-list {
@@ -290,6 +290,7 @@ body {
   flex-direction: column;
   margin: 0;
   padding: 0;
+  margin-top: 64px;
 }
 .services-list-item {
   list-style: none;
@@ -372,14 +373,9 @@ body {
 /* редкий товар под заказ */
 .index-elivery-container {
   display: flex;
-
-  margin: 70px auto auto auto;
-  width: 1440px;
-  height: 100px;
-  background: #f0f0f0;
 }
 
-.index-elivery-button-credit {
+.index-elivery-button {
   background: #f0f0f0;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -388,9 +384,11 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.2em;
   border: none;
-  width: 910px;
-  height: 20px;
-  margin: 40px auto;
+  width: 1160px;
+  height: 100px;
+  padding: 0;
+  margin: 0 auto;
+  margin-top: 70px;
 }
 
 /* О нас контейнер*/
@@ -622,8 +620,8 @@ body {
   display: flex;
   flex-direction: column;
   width: 444px;
-  height: 123px;
-  margin: 137px auto auto 124px;
+  margin-top: 137px;
+  margin-left: 124px;
 }
 .footer-navigation {
   display: inline-flex;
@@ -632,7 +630,7 @@ body {
 
 .footer-navigation-divice-list {
   list-style: none;
-  display: flex;
+  /* display: flex; */
   padding: 0;
   margin: 0;
   width: 444px;
@@ -644,17 +642,6 @@ body {
   text-transform: uppercase;
   line-height: 18px;
   letter-spacing: 0.2em;
-}
-
-.footer-contacts-address-phone {
-  font-family: "Rubik", sans-serif;
-  text-decoration: none;
-  font-weight: 400;
-  font-size: 16px;
-  color: #ffffff;
-  text-decoration-line: underline;
-  line-height: 20px;
-  font-style: normal;
 }
 
 /* Социальные сети */
@@ -675,12 +662,20 @@ body {
   width: 160px;
 }
 .contacts-phone-container {
-  width: 175px;
-  height: 116px;
   display: flex;
   flex-direction: column;
+}
+.footer-phone-contacts {
+  width: 175px;
+  margin-left: 183px;
   margin-top: 140px;
 }
+.footer-contacts-phone {
+  height: 20px;
+  margin: 0;
+  padding: 0;
+}
+
 .footer-contacts-address-phone {
   font-family: "Rubik", sans-serif;
   text-decoration: none;
@@ -690,13 +685,17 @@ body {
   text-decoration-line: underline;
   line-height: 20px;
   font-style: normal;
+  margin: 0;
+  padding: 0;
 }
 
 /* Ссылка html-academy */
 .htmlacademy-link {
   width: 115px;
   height: 33px;
-  padding: 65px;
+  margin: 0 auto;
+  margin-top: 65px;
+  margin-left: 243px;
 }
 
 /* -----------------------К-А-Т-А-Л-О-Г------------------------- */
