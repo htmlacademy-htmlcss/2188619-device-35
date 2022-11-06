@@ -31,6 +31,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100%;
+  min-width: 1200px;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   line-height: 30px;
@@ -67,9 +68,11 @@ body {
   padding: 0;
 }
 .navigation-logo {
+  width: 145px;
   margin-top: -20px;
   padding: 0;
 }
+
 .navigation-search-container {
   display: flex;
   margin-top: 30px;
@@ -207,21 +210,23 @@ margin-right: 61px;
 } */
 
 /* навигация сайта */
-.navigation-divice-list {
+.navigation-device-list {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
+justify-content: space-between;
+  min-width: 471px;
   margin: 0;
-  margin-left: auto;
+  margin-left: 276px;
   padding: 0;
   list-style: none;
 }
-.navigation-divice-item {
+.navigation-device-item {
   display: block;
   margin: 0;
   padding: 0;
+
 }
-.navigation-divice-link {
+.navigation-device-link {
   display: block;
   font-weight: 800;
   text-decoration: none;
@@ -231,7 +236,6 @@ margin-right: 61px;
   line-height: 21px;
   color: #000000;
   padding: 0;
-  margin-left: 45px;
 }
 .main-index {
   flex-grow: 1;
@@ -269,7 +273,8 @@ margin-right: 61px;
 }
 .catalog-devices-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  flex-wrap: wrap;
   list-style: none;
   min-height: 253px;
   margin: 0;
@@ -280,6 +285,11 @@ margin-right: 61px;
   display: flex;
   align-items: flex-end;
   min-width: 160px;
+  margin-left: 40px;
+}
+.catalog-devices-item:nth-child(6n){
+margin-left: 0;
+
 }
 
 .catalog-devices-item-link {
@@ -294,20 +304,22 @@ margin-right: 61px;
 
 /* Услуги магазина */
 .services-background-color {
-  background-color: #f0f0f0;
-  margin-top: 102px;
+  min-height: 391px;
+  background: linear-gradient(to bottom, #ffffff 102px, #f0f0f0 102px, #f0f0f0 100%);
+
 }
 .services-container {
   display: flex;
   width: 1160px;
   margin: 0 auto;
-  margin-top: 172px;
+  margin-top: 70px;
 }
 
 .services {
   display: flex;
   justify-content: start;
-  margin-top: -102px;
+  margin: 0 auto;
+  /* margin-top: -102px; */
   padding: 0;
 }
 .services-list {
@@ -873,7 +885,7 @@ margin-top: 35px;
   margin-top: 34px;
 }
 
-.catalog-left-column {
+.catalog-filter-container {
   width: 320px;
 }
 /* Фильтр */
@@ -897,6 +909,7 @@ margin-top: 35px;
   min-height: 95px;
   padding-left: 60px;
   margin-bottom: 35px;
+  border: none;
 }
 .catalog-price-title {
 padding-top: 12px;
@@ -904,6 +917,12 @@ padding-top: 12px;
 }
 .catalog-filter-list {
   padding-left: 60px;
+}
+.catalog-filter-group {
+border: none;
+margin: 0;
+padding: 0;
+
 }
 .catalog-filter-title {
   font-family: "Rubik", sans-serif;
@@ -964,10 +983,9 @@ padding-top: 12px;
   min-width: 840px;
   align-items: center;
 }
-.cards-list {
+.cards-container {
   background-color: #ffffff;
-  padding-top: 30px;
-  width: 840px;
+  padding: 70px 40px 78px;
 }
 
 .product-list {
@@ -976,12 +994,13 @@ padding-top: 12px;
   background: #ffffff;
   margin: 0;
   padding: 0;
-  min-width: 840px;
+  gap: 40px;
+
 
 }
 
-.catalog-right-column {
-  min-width: 840px;
+.catalog-sorting-container {
+  width: 840px;
 }
 .sorting p {
   font-style: normal;
@@ -1006,8 +1025,6 @@ margin-right: 40px;
   height: 100%;
   margin: 0;
   padding: 0%;
-  padding-left: 40px;
-  padding-top: 40px;
   width: 360px;
   min-height: 452px;
 }
@@ -1055,22 +1072,20 @@ padding-bottom: 32px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   border: 3px solid #E5E5E5;
-  width: 760px;
+  width: 100%;
   height: 55px;
-  margin-left: 40px;
   padding: 0;
-  margin-top: 40px;
+  margin-top: 44px;
+  margin-bottom: 44px;
 
 
 }
 /* Страницы каталога */
 
 .pagination-container {
-  width: 760px;
-  height: 71px;
-  padding: 40px 40px 78px 40px
 
-
+  width: 100%;
+  min-height: 71px;
 
 }
 .pagination {
@@ -1080,6 +1095,7 @@ align-items: center;
 margin: 0;
 padding: 0;
 min-height: 71px;
+
 
 }
 .pagination-item {
@@ -1100,8 +1116,8 @@ min-height: 71px;
 
 }
 .pagination-link {
-  display: block;
-  box-sizing: border-box;
+  display:grid;
+place-content: center;
   width: 40px;
   height: 40px;
   text-align: center;
@@ -1112,8 +1128,6 @@ min-height: 71px;
   font-size: 16px;
   line-height: 20px;
   color: #444444;
-  padding-top: 10px;
-
 }
 /* Кнопка назад */
 .pagination-disabled {
